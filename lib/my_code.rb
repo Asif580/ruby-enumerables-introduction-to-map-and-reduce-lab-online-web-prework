@@ -67,7 +67,16 @@ def reduce_to_all_true(source_array)
       i += 1
     end
   end
-def reduce_to_all_
+def reduce_to_all_true(source_array)
+  i = 0 
+  new = []
+  while i < source_array.lenght do
+    return true if new.push( source_array[i] )
+    i += 1 
+  end
+  return false
+end
+end
     
   
 
